@@ -1,0 +1,39 @@
+body{
+    width: 100%;
+    margin:auto;
+    text-align: center;
+}
+
+body main{
+    margin-bottom:20px;
+}
+
+body main h1,body main span{
+   font-size:42px;
+}
+
+body button{
+    color:white;
+    border:none;
+    border-radius: 5px;
+    padding:7px 20px;
+    cursor: pointer;
+    font-size:17px;
+}
+
+body button:first-of-type{
+    background-color: darkred;
+}
+
+body button:nth-of-type(2){
+    background-color: green;
+}
+
+body button:last-of-type{
+    background-color: #4d4d4d;
+}
+
+body section{
+    margin-top:25px;
+    font-size:20px;
+}

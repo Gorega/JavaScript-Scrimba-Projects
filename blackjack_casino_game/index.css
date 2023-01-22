@@ -1,0 +1,59 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-image:url(./img/background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box{
+    position: relative;
+    margin: auto;
+    text-align: center;
+    width: 30%;
+    padding:15px;
+    border:1px solid #d9d9d9;
+    color:white;
+}
+
+h1{
+    font-size:24px;
+}
+
+h2{
+    font-size:20px;
+    margin-bottom:15px;
+}
+
+p{
+    margin-bottom:15px;
+    font-size:17px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttons button{
+    color:green;
+    background-color: darkkhaki;
+    font-size:20px;
+    border:none;
+    border-radius: 2px;
+    padding:7px 20px;
+    cursor: pointer;
+    margin-top:12px;
+}
+
+span{
+    position: absolute;
+    left:10px;
+    bottom:10px;
+    color:green;
+}
